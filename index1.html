@@ -47,13 +47,17 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-12 col-sm-6">
-						<div class="col-12 col-sm align-self-center">
-							<img src="img/logo.png" class="img-fluid">
-						</div>
+					
 						<h1>Ristorante con Fusion</h1>
 						<p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
 					</div>
-					<div>
+					<div class="col-12 col-sm-3 align-self-center">
+						<img src="img/logo.png" class="img-fluid">
+					</div>
+					<div class="col-12 col-sm-3 text-center align-self-center">
+						<button type="submit" class="btn btn-warning btn-lg">
+							Reserve Table
+						</button>
 					</div>
 				</div>
 			</div>
@@ -92,8 +96,18 @@
 					<h3>This Month's Promotions</h3>
 				</div>
 				<div class="col-12 col-sm-9">
-					<h2>Weekend Grand Buffet</h2>
-					<p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+					<div class="media">
+						
+						<div class="media-body">
+							<h2 class="mt-0">Weekend Grand Buffet
+								<span class="badge badge-danger">NEW</span>
+							</h2>
+							<p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person .</p>
+						</div>
+						<img class="d-flex mr-3 img-thumbnail align-self-center"
+								src="img/buffet.png" alt="Weekend Grand Buffet">
+					</div>
+					
 				</div>
 			</div>
 	
@@ -120,6 +134,45 @@
 					<h3>Meet our Culinary Specialists</h3>
 				</div>
 				
+			</div>
+			
+			<div class="card " style="width: 50rem; height: 20rem;">
+				<h3 class="card-header bg-warning text-white">Reserve Table</h3>
+				<div class="card-body">
+					<dl class="row">
+						<dt class="col-6">Number of Guests</dt>
+						<dd class="col-6"><input type="radio" id="option1" name="options" value="option1">
+							<label for="option1">1</label>
+
+							<input type="radio" id="option2" name="options" value="option2">
+							<label for="option2">2</label>
+
+							<input type="radio" id="option3" name="options" value="option3">
+							<label for="option3">3</label>
+
+							<input type="radio" id="option4" name="options" value="option1">
+							<label for="option1">4</label>
+
+							<input type="radio" id="optio5n" name="options" value="option2">
+							<label for="option2">5</label>
+
+							<input type="radio" id="option6" name="options" value="option3">
+							<label for="option3">6</label></dd>
+						<dt class="col-6">Date and Time</dt>
+						<dd class="col-6">
+							<input class="col-3" type="text" class="form-control" id="Date" name="Date" placeholder="Date">
+						    <input class="col-3" type="text" class="form-control" id="Time" name="Time" placeholder="Time">
+						</dd>
+						<dt class="col-12">
+							<div class="col-6 text-center">
+								<button type="submit" class="btn btn-primary btn-lg">
+									Reserve Table
+								</button>
+							</div>
+						</dt>
+						
+					</dl>
+				</div>
 			</div>
 		</div>
 	
